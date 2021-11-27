@@ -1,0 +1,8 @@
+﻿<input id="tipo-notificacao" type="hidden" value="@ViewBag.Notificacao.Tipo" />
+<div id="div-notificacao" class="alert alert-dismissible fade show" role="alert">
+    <strong id="titulo-notificacao"></strong> @ViewBag.Notificacao.Mensagem
+    <button id="fechar-notificacao" type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/Shared/notificacao.js"></script>
