@@ -24,7 +24,7 @@ namespace ProjetoEscola.Controllers
                 return RedirectToAction("Inicio", "Home");
             }
 
-            ModelState.AddModelError("Email", Biblioteca.USUARIO_INVALIDO);
+            ModelState.AddModelError(nameof(acesso.Email), Biblioteca.USUARIO_INVALIDO);
             return View("Login", acesso);
         }
     }

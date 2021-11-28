@@ -32,3 +32,38 @@ C:\Projetos\Escola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\ProjetoEs
 C:\Projetos\Escola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\Razor\Views\Home\Inicio.cshtml.g.cs
 C:\Projetos\Escola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\Razor\Views\Professor\Cadastro.cshtml.g.cs
 C:\Projetos\Escola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Notificacao.cshtml.g.cs
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\bin\Debug\netcoreapp2.1\ProjetoEscola.deps.json
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\bin\Debug\netcoreapp2.1\ProjetoEscola.runtimeconfig.json
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\bin\Debug\netcoreapp2.1\ProjetoEscola.runtimeconfig.dev.json
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\bin\Debug\netcoreapp2.1\ProjetoEscola.dll
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\bin\Debug\netcoreapp2.1\ProjetoEscola.pdb
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\bin\Debug\netcoreapp2.1\ProjetoEscola.Views.dll
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\bin\Debug\netcoreapp2.1\ProjetoEscola.Views.pdb
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\ProjetoEscola.csprojAssemblyReference.cache
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\ProjetoEscola.AssemblyInfoInputs.cache
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\ProjetoEscola.AssemblyInfo.cs
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\ProjetoEscola.csproj.CoreCompileInputs.cache
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\ProjetoEscola.RazorAssemblyInfo.cache
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\ProjetoEscola.RazorAssemblyInfo.cs
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\ProjetoEscola.TagHelpers.input.cache
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\ProjetoEscola.TagHelpers.output.cache
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\ProjetoEscola.RazorCoreGenerate.cache
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\Razor\Views\Home\Inicio.cshtml.g.cs
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\Razor\Views\Professor\Cadastro.cshtml.g.cs
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Notificacao.cshtml.g.cs
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\Razor\Views\Turma\Cadastro.cshtml.g.cs
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\Razor\Views\Usuario\Login.cshtml.g.cs
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\ProjetoEscola.RazorTargetAssemblyInfo.cache
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\ProjetoEscola.RazorTargetAssemblyInfo.cs
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\ProjetoEscola.Views.pdb
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\ProjetoEscola.dll
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\ProjetoEscola.pdb
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\ProjetoEscola.genruntimeconfig.cache
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\ProjetoEscola.csproj.CopyComplete

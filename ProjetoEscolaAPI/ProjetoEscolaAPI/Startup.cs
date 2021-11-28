@@ -25,6 +25,7 @@ namespace ProjetoEscolaAPI
               options.UseMySql(Configuration.GetConnectionString("Escola")));
 
             services.AddScoped<ProfessorR>();
+            services.AddScoped<TurmaR>();
             services.AddScoped<UsuarioR>();
         }
 

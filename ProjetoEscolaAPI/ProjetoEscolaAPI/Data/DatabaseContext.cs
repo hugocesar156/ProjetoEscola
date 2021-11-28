@@ -10,6 +10,7 @@ namespace ProjetoEscolaAPI.Data
         }
 
         public DbSet<Professor> Professor { get; set; }
+        public DbSet<Turma> Turma { get; set; }
         public DbSet<Usuario> Usuario { get; set; }
     }
 }

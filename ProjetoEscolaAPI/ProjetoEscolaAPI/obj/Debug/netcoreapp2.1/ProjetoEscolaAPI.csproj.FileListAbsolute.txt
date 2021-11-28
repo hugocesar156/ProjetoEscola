@@ -15,3 +15,20 @@ C:\Projetos\Escola\ProjetoEscolaAPI\ProjetoEscolaAPI\obj\Debug\netcoreapp2.1\Pro
 C:\Projetos\Escola\ProjetoEscolaAPI\ProjetoEscolaAPI\obj\Debug\netcoreapp2.1\ProjetoEscolaAPI.dll
 C:\Projetos\Escola\ProjetoEscolaAPI\ProjetoEscolaAPI\obj\Debug\netcoreapp2.1\ProjetoEscolaAPI.pdb
 C:\Projetos\Escola\ProjetoEscolaAPI\ProjetoEscolaAPI\obj\Debug\netcoreapp2.1\ProjetoEscolaAPI.genruntimeconfig.cache
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscolaAPI\ProjetoEscolaAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscolaAPI\ProjetoEscolaAPI\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscolaAPI\ProjetoEscolaAPI\bin\Debug\netcoreapp2.1\ProjetoEscolaAPI.deps.json
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscolaAPI\ProjetoEscolaAPI\bin\Debug\netcoreapp2.1\ProjetoEscolaAPI.runtimeconfig.json
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscolaAPI\ProjetoEscolaAPI\bin\Debug\netcoreapp2.1\ProjetoEscolaAPI.runtimeconfig.dev.json
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscolaAPI\ProjetoEscolaAPI\bin\Debug\netcoreapp2.1\ProjetoEscolaAPI.dll
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscolaAPI\ProjetoEscolaAPI\bin\Debug\netcoreapp2.1\ProjetoEscolaAPI.pdb
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscolaAPI\ProjetoEscolaAPI\obj\Debug\netcoreapp2.1\ProjetoEscolaAPI.csprojAssemblyReference.cache
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscolaAPI\ProjetoEscolaAPI\obj\Debug\netcoreapp2.1\ProjetoEscolaAPI.AssemblyInfoInputs.cache
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscolaAPI\ProjetoEscolaAPI\obj\Debug\netcoreapp2.1\ProjetoEscolaAPI.AssemblyInfo.cs
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscolaAPI\ProjetoEscolaAPI\obj\Debug\netcoreapp2.1\ProjetoEscolaAPI.csproj.CoreCompileInputs.cache
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscolaAPI\ProjetoEscolaAPI\obj\Debug\netcoreapp2.1\ProjetoEscolaAPI.RazorAssemblyInfo.cache
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscolaAPI\ProjetoEscolaAPI\obj\Debug\netcoreapp2.1\ProjetoEscolaAPI.RazorAssemblyInfo.cs
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscolaAPI\ProjetoEscolaAPI\obj\Debug\netcoreapp2.1\ProjetoEscolaAPI.RazorTargetAssemblyInfo.cache
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscolaAPI\ProjetoEscolaAPI\obj\Debug\netcoreapp2.1\ProjetoEscolaAPI.dll
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscolaAPI\ProjetoEscolaAPI\obj\Debug\netcoreapp2.1\ProjetoEscolaAPI.pdb
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscolaAPI\ProjetoEscolaAPI\obj\Debug\netcoreapp2.1\ProjetoEscolaAPI.genruntimeconfig.cache

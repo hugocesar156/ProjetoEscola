@@ -4,10 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - ProjetoEscola</title>
+
     <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/lib/select-2/select2.min.css" rel="stylesheet" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #79bcf2">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Projeto Escola</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +18,13 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Professores</a>
+                        <a class="nav-link" aria-current="page" href="#">Alunos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Turmas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Professores</a>
                     </li>
                 </ul>
             </div>
@@ -35,6 +43,7 @@
     <script src="~/lib/jquery-unobstrusive/jquery.unobtrusive-ajax.min.js"></script>
     <script src="~/lib/jquery-mask/jquery.mask.min.js"></script>
     <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/lib/select-2/select2.min.js"></script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>

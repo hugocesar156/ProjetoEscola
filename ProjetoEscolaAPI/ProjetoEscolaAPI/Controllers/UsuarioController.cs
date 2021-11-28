@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using ProjetoEscolaAPI.Models;
+using ProjetoEscolaAPI.Global;
 using ProjetoEscolaAPI.Repositories;
 
 namespace ProjetoEscolaAPI.Controllers
@@ -23,13 +24,13 @@ namespace ProjetoEscolaAPI.Controllers
             var usuario = _reposUsuario.Buscar(dados["email"].ToString());
 
             if (usuario == null || !Usuario.ValidarCriptografia(dados["senha"].ToString(), usuario.Senha))
-                return new ContentResult { StatusCode = 400 };
+                return new ContentResult { StatusCode = (int)Biblioteca.StatusCode.BadRequest };
 
             return new ContentResult
             {
                 Content = JsonConvert.SerializeObject(usuario),
-                ContentType = "application/json",
-                StatusCode = 200
+                ContentType = Biblioteca.MEDIATYPE,
+                StatusCode = (byte)Biblioteca.StatusCode.Success
             };
         }
 
@@ -41,8 +42,8 @@ namespace ProjetoEscolaAPI.Controllers
             return new ContentResult
             {
                 Content = JsonConvert.SerializeObject(usuario),
-                ContentType = "application/json",
-                StatusCode = 200
+                ContentType = Biblioteca.MEDIATYPE,
+                StatusCode = (int)Biblioteca.StatusCode.Success
             };
         }
 

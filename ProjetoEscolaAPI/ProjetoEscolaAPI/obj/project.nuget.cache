@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7P8qq3hxQS63l0pfLyLTB0AMCWTFn6jfvp1PDA2xKjHKFuxC6Z/AYkgo5XHVvjV85br0zGFoVFP3dBArNkHAVQ==",
+  "dgSpecHash": "MFN+/KXbECsXmzSavuhFzUiRKQtG/8ydZDUOHUOvd1jyYCm4130dR+eZ5EiT0XYMPNee2+vzWsEHvcx5UuRr5Q==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\Escola\\ProjetoEscolaAPI\\ProjetoEscolaAPI\\ProjetoEscolaAPI.csproj",
+  "projectFilePath": "C:\\Projetos\\Projeto Escola\\ProjetoEscola\\ProjetoEscolaAPI\\ProjetoEscolaAPI\\ProjetoEscolaAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hugoc\\.nuget\\packages\\bcrypt.net-next\\4.0.2\\bcrypt.net-next.4.0.2.nupkg.sha512",
     "C:\\Users\\hugoc\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",

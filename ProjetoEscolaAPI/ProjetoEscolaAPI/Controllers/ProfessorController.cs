@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using ProjetoEscolaAPI.Global;
 using ProjetoEscolaAPI.Models;
 using ProjetoEscolaAPI.Repositories;
 using System;
@@ -30,9 +31,9 @@ namespace ProjetoEscolaAPI.Controllers
             professor.Usuario.DataCriacao = DateTime.Now;
 
             if (_reposProfessor.Registrar(professor))
-                return new ContentResult { StatusCode = 200 };
+                return new ContentResult { StatusCode = (int)Biblioteca.StatusCode.Success };
 
-            return new ContentResult { StatusCode = 400 };
+            return new ContentResult { StatusCode = (int)Biblioteca.StatusCode.BadRequest };
         }
     }
 }

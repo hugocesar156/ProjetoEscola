@@ -12005,11 +12005,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\Escola\\ProjetoEscolaAPI\\ProjetoEscolaAPI\\ProjetoEscolaAPI.csproj",
+      "projectUniqueName": "C:\\Projetos\\Projeto Escola\\ProjetoEscola\\ProjetoEscolaAPI\\ProjetoEscolaAPI\\ProjetoEscolaAPI.csproj",
       "projectName": "ProjetoEscolaAPI",
-      "projectPath": "C:\\Projetos\\Escola\\ProjetoEscolaAPI\\ProjetoEscolaAPI\\ProjetoEscolaAPI.csproj",
+      "projectPath": "C:\\Projetos\\Projeto Escola\\ProjetoEscola\\ProjetoEscolaAPI\\ProjetoEscolaAPI\\ProjetoEscolaAPI.csproj",
       "packagesPath": "C:\\Users\\hugoc\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\Escola\\ProjetoEscolaAPI\\ProjetoEscolaAPI\\obj\\",
+      "outputPath": "C:\\Projetos\\Projeto Escola\\ProjetoEscola\\ProjetoEscolaAPI\\ProjetoEscolaAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hugoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
