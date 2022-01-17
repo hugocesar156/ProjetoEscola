@@ -4,8 +4,6 @@
     ViewData["Title"] = "ProjetoEscola - Cadastro de turma";
 }
 
-<link href="~/css/Shared/estilo.css" rel="stylesheet" />
-
 <form asp-action="ValidarCadastro" data-ajax="true" data-ajax-method="post" data-ajax-begin="$('#area-submit').remove()"
       data-ajax-loading="#area-carregamento" data-ajax-update="#div-render">
     @Html.AntiForgeryToken()
@@ -15,13 +13,14 @@
     <div class="row justify-content-center mt-4">
         <div class="col-8 col-md-4">
             <label for="nome">Nome</label>
-            <input asp-for="Nome" type="text" id="nome" class="form-control">
+            <input asp-for="Nome" type="text" id="nome" class="form-control" 
+                   required maxlength="30" title="Nome da turma">
             <span asp-validation-for="Nome" class="span-danger"></span>
         </div>
-        <div class="col-8 col-md-4">
+        <div class="col-8 col-md-4 mt-3 mt-md-0">
             <label for="ensino">Ensino</label>
-            <select asp-for="Ensino" id="ensino" class="form-control select-2" data-width="100%" data-container="body"
-                    data-title="Nível de ensino" data-value="@Model.Ensino">
+            <select asp-for="Ensino" id="ensino" class="form-control select-2" data-width="100%" 
+                    data-container="body" data-title="Nível de ensino" data-value="@Model.Ensino" required>
                 <option value="0">Ensino Fundamental</option>
                 <option value="1">Ensino Médio</option>
             </select>
@@ -32,7 +31,7 @@
         <div class="col-8 col-md-3">
             <label for="ano-ensino">Ano de ensino</label>
             <select asp-for="AnoEnsino" id="ano-ensino" class="form-control select-2" data-title="Selecionar ano de ensino" 
-                    data-width="100%" data-container="body" data-value="@Model.AnoEnsino">
+                    data-width="100%" data-container="body" data-value="@Model.AnoEnsino" required>
 
                 @for (var i = 1; i < 10; i++)
                 {
@@ -42,36 +41,40 @@
             </select>
             <span asp-validation-for="AnoEnsino" class="span-danger"></span>
         </div>
-        <div class="col-8 col-md-3">
+        <div class="col-8 col-md-3 mt-3 mt-md-0">
             <label for="turno">Turno</label>
-            <select asp-for="Turno" id="turno" class="form-control select-2" data-title="Selecionar turno" data-width="100%"
-                    data-container="body" data-value="@Model.Turno">
+            <select asp-for="Turno" id="turno" class="form-control select-2" data-title="Selecionar turno" 
+                    data-width="100%" data-container="body" data-value="@Model.Turno" required>
                 <option value="0">Manhã</option>
                 <option value="1">Tarde</option>
                 <option value="2">Noite</option>
             </select>
             <span asp-validation-for="Turno" class="span-danger"></span>
         </div>
-        <div class="col-8 col-md-2">
+        <div class="col-8 col-md-2 mt-3 mt-md-0">
             <label for="capacidade">Capacidade</label>
-            <input asp-for="Capacidade" type="text" id="capacidade" class="form-control num-2">
+            <input asp-for="Capacidade" type="text" id="capacidade" class="form-control num-2" 
+                   required title="Capacidade de alunos da turma">
             <span asp-validation-for="Capacidade" class="span-danger"></span>
         </div>
     </div>
     <div class="row mt-3 justify-content-center">
         <div class="col-8 col-md-2">
             <label for="ano-letivo">Ano letivo</label>
-            <input asp-for="AnoLetivo" type="text" id="ano-letivo" class="form-control num-4">
+            <input asp-for="AnoLetivo" type="text" id="ano-letivo" class="form-control num-4" 
+                   required title="Ano de início do ano letivo">
             <span asp-validation-for="AnoLetivo" class="span-danger"></span>
         </div>
-        <div class="col-8 col-md-3">
+        <div class="col-8 col-md-3 mt-3 mt-md-0">
             <label for="inicio">Início</label>
-            <input asp-for="Inicio" type="date" id="inicio" class="form-control">
+            <input asp-for="Inicio" type="date" id="inicio" class="form-control" 
+                   required title="Data de início do ano letivo da turma">
             <span asp-validation-for="Inicio" class="span-danger"></span>
         </div>
-        <div class="col-8 col-md-3">
+        <div class="col-8 col-md-3 mt-3 mt-md-0">
             <label for="termino">Término</label>
-            <input asp-for="Termino" type="date" id="termino" class="form-control">
+            <input asp-for="Termino" type="date" id="termino" class="form-control" 
+                   required title="Data de término do ano letivo da turma">
             <span asp-validation-for="Termino" class="span-danger"></span>
         </div>
     </div>
@@ -86,16 +89,16 @@
     }
 
     <div id="area-submit" class="row justify-content-center mt-5">
-        <button class="btn btn-success col-4" type="submit">Salvar</button>
+        <button class="btn btn-primary col-8 col-md-4" type="submit">Salvar</button>
     </div>
     <div id="area-carregamento" class="row mt-5 justify-content-center" style="display: none;">
-        <button class="col-4 btn btn-success" type="button" disabled>
+        <button class="col-8 col-md-4 btn btn-primary" type="button" disabled>
             <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
             Salvar
         </button>
     </div>
     <div class="row justify-content-center mt-3 mb-4">
-        <button class="btn btn-outline-danger col-4" type="submit">Voltar</button>
+        <button class="btn btn-outline-danger col-8 col-md-4" type="submit">Voltar</button>
     </div>
 </form>
 
@@ -103,5 +106,3 @@
 <script src="~/lib/jquery-mask/jquery.mask.min.js"></script>
 <script src="~/lib/select-2/select2.min.js"></script>
 <script src="~/js/Shared/biblioteca.js"></script>
-<script src="~/js/Shared/notificacao.js"></script>
-<script src="~/js/Turma/cadastro.js"></script>

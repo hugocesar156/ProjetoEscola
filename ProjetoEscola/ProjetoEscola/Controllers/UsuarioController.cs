@@ -27,5 +27,11 @@ namespace ProjetoEscola.Controllers
             ModelState.AddModelError(nameof(acesso.Email), Biblioteca.USUARIO_INVALIDO);
             return View("Login", acesso);
         }
+
+        public async Task<IActionResult> Buscar() 
+        {
+            await UsuarioR.Buscar("hugo@email.com");
+            return Ok();
+        }
     }
 }

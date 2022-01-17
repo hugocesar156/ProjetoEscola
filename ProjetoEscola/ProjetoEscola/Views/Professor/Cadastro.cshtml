@@ -4,29 +4,30 @@
     ViewData["Title"] = "ProjetoEscola - Cadastro de professor";
 }
 
-<link href="~/css/Shared/estilo.css" rel="stylesheet" />
-
 <form asp-action="ValidarCadastro" data-ajax="true" data-ajax-method="post" data-ajax-begin="$('#area-submit').remove()"
       data-ajax-loading="#area-carregamento" data-ajax-update="#div-render">
+    @Html.AntiForgeryToken()
     <div class="row text-center mt-4">
         <h4>Cadastro de professor</h4>
     </div>
     <div class="row justify-content-center mt-4">
-        <div class="col-5">
-            <label for="nome">Nome completo</label>
-            <input asp-for="Nome" id="nome" type="text" class="form-control">
+        <div class="col-8 col-md-5">
+            <label for="nome">Nome</label>
+            <input asp-for="Nome" id="nome" type="text" class="form-control" 
+                   required maxlength="50" placeholder="Informe o nome completo">
             <span asp-validation-for="Nome" class="span-danger"></span>
         </div>
-        <div class="col-3">
+        <div class="col-8 col-md-3 mt-3 mt-md-0">
             <label for="cpf">CPF</label>
-            <input asp-for="Cpf" id="cpf" type="text" class="form-control cpf" placeholder="000.000.000-00">
+            <input asp-for="Cpf" id="cpf" type="text" class="form-control cpf" placeholder="000.000.000-00" required>
             <span asp-validation-for="Cpf" class="span-danger"></span>
         </div>
     </div>
     <div class="row justify-content-center mt-3">
         <div class="col-8">
             <label for="email">Email</label>
-            <input asp-for="Usuario.Email" id="email" type="text" class="form-control" placeholder="seuemail@email.com">
+            <input asp-for="Usuario.Email" id="email" type="email" class="form-control" 
+                   placeholder="seuemail@email.com" required maxlength="50">
             <span asp-validation-for="Usuario.Email" class="span-danger"></span>
         </div>
     </div>
@@ -40,18 +41,20 @@
         </div>
     }
 
-    <div id="area-submit" class="row justify-content-center mt-5 mb-4">
-        <button class="btn btn-success col-4" type="submit">Salvar</button>
+    <div id="area-submit" class="row justify-content-center mt-5">
+        <button class="btn btn-primary col-8 col-md-4" type="submit">Salvar</button>
     </div>
-    <div id="area-carregamento" class="row mt-5 mb-4 justify-content-center" style="display: none;">
-        <button class="col-4 btn btn-success" type="button" disabled>
+    <div id="area-carregamento" class="row mt-5 justify-content-center" style="display: none;">
+        <button class="col-8 col-md-4 btn btn-primary" type="button" disabled>
             <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
             Salvar
         </button>
+    </div>
+    <div id="area-submit" class="row justify-content-center mt-3 mb-4">
+        <button class="btn btn-outline-danger col-8 col-md-4" type="submit">Voltar</button>
     </div>
 </form>
 
 <script src="~/lib/jquery/dist/jquery.js"></script>
 <script src="~/lib/jquery-mask/jquery.mask.min.js"></script>
 <script src="~/js/Shared/biblioteca.js"></script>
-<script src="~/js/Shared/notificacao.js"></script>

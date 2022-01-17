@@ -67,3 +67,4 @@ C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\n
 C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\ProjetoEscola.pdb
 C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\ProjetoEscola.genruntimeconfig.cache
 C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\ProjetoEscola.csproj.CopyComplete
+C:\Projetos\Projeto Escola\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\Debug\netcoreapp2.1\Razor\Views\Aluno\Cadastro.cshtml.g.cs
